@@ -18,7 +18,7 @@ fi
 
 
 # Configure the shared Node library on the undergrad server.
-export NODE_PATH=/cs/local/generic/lib/cs304/node_modules
+export NODE_PATH=/(insert path)/node_modules
 
 # File path
 ENV_SERVER_PATH="./.env"
