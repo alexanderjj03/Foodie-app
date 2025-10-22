@@ -1,7 +1,3 @@
-# project_template
-
-# Make sure to fill out the README with the information specified in the project description!
-
 ## How to deploy
 
 In order to deploy onto the ugrad servers (i.e `<CWL>@pender.students.cs.ubc.ca` or `<CWL>@remote.students.cs.ubc.ca`)
