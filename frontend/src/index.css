@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --light-button-color: #ef8e42;
+  --dark-button-color: #f18432;
+
+  --review-color: #f8efe9;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.carrot-btn {
+  background-color: var(--light-button-color) !important;
+  color: #ffffff !important;
+}
+
+.app {
+  background-color: #f4dfd0;
+}
+
+.mainheader {
+  font-family: 'Abril Fatface', serif;
+  color: #f47356;
+}
+
+.button {
+  width: 15vw;
+  height: 4.5vh;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: var(--light-button-color);
+  color: #ffffff;
+  text-decoration: none;
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+}
+
+.button:hover {
+  background-color: var(--dark-button-color);
+}
+
+.invertedbutton {
+  width: 15vw;
+  height: 2vh;
+  margin: 2vh;
+  border-radius: 5px;
+  border-color: var(--light-button-color);
+  background-color: transparent;
+  text-decoration: none;
+  color: var(--light-button-color);
+}
+
+.invertedbutton:hover {
+  color: var(--dark-button-color);
+}
+
+.backgroundreview {
+  margin: 2vh;
+  border-radius: 5px;
+  background-color: #f6ebe2;
+}

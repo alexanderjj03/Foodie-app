@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  background-color: #f6e7dc;
+}
+
+.profile {
+  color: #060747;
+  padding-left: 5vw;
+  padding-top: 5vh;
+  display: grid;
+  gap: 1.5vh;
+}
+
+.mainheader {
+  font-family: 'Abril Fatface', serif;
+}
