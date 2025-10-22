@@ -4,6 +4,9 @@
   "description": "Node.js demo project.",
   "main": "server.js",
   "keywords": [],
+  "author": {
+    "name": "Zoe Yuan (made the template for the project, was not part of our group)"
+  },
   "scripts": {
     "prettier": "prettier --write .",
     "sync": "sh ./scripts/mac/sync-build-and-env.sh",
