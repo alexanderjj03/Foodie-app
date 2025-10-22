@@ -1,12 +1,9 @@
 {
   "name": "node_demo_project",
   "version": "1.0.0",
-  "description": "The sample Node.js project for CPSC304.",
+  "description": "Node.js demo project.",
   "main": "server.js",
   "keywords": [],
-  "author": {
-    "name": "Zoe Yuan"
-  },
   "scripts": {
     "prettier": "prettier --write .",
     "sync": "sh ./scripts/mac/sync-build-and-env.sh",
